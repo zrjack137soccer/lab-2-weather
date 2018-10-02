@@ -1,0 +1,68 @@
+#cityFinder {
+	
+	margin-top: 100px;
+}
+
+
+#weatherButton {
+	
+	border-style: outset;
+	border-color: gray;
+	border-width: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	
+}
+
+#weatherButton:hover{
+	
+	background-color: black;
+	color: white;
+	
+}
+
+#weatherButton:active {
+    
+    background-color: black;
+    color: white;
+    border-style: inset;
+    
+}
+
+
+#searchButton {
+	
+	border-style: outset;
+	border-color: gray;
+	border-width: 3px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	
+	
+}
+
+
+#searchButton.hover {
+	
+	
+	background-color: black;
+	color: white;
+	
+}
+
+#searchButton:active {
+    
+    background-color: black;
+    color: white;
+    border-style: inset;
+    
+}
+
+body {
+	
+    background-image: linear-gradient(blue, lightblue);
+    background-size: cover;
+	background-color: #F1F0F0;
+	
+	
+}
